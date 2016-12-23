@@ -1,0 +1,239 @@
+$basetext: #383838;
+$purple: #9b59b6;
+$red: #e74c3c;
+$asphalt: #34495e;
+$midnight: #2c3e50;
+
+/** Body **/
+body {
+  padding-top: 69px;
+  color: $basetext !important;
+  text-shadow: none !important;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  li {
+    line-height: 2;
+  }
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 !important;
+  margin-bottom: 5px !important;
+}
+
+h2 {
+  margin: 0 !important;
+  margin-bottom: 30px !important;
+}
+
+
+
+
+
+/** Header **/
+#logo {
+  float: left;
+  font-family: 'raleway', sans-serif;
+  margin-right: 10px;
+  font-size: 2.5em;
+  color: $basetext;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: 200 !important;
+  letter-spacing: 5px !important;
+  span {
+    color: $red;
+  }
+}
+
+#active {
+  color: $red;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, .9) !important;
+
+  nav {
+    ul {
+      padding-top: 9px !important;
+      li {
+        font-family: 'raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        text-transform: uppercase;
+        a {
+          color: $basetext;
+          &:hover {
+            background: transparent;
+            color: $red !important;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.empty-space {
+  height: 28px;
+}
+
+/** Sections General **/
+section {
+  padding: 75px 0 75px 0;
+}
+
+/** Slider Section **/
+.slider {
+  padding: 0 !important;
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+    img {
+      height: 100% !important;
+      width: 100% !important;
+    }
+    .carousel-caption {
+      bottom: 50% !important;
+      text-transform: uppercase;
+      text-shadow: none !important;
+      h1 {
+        font-weight: 800;
+        font-family: 'raleway', sans-serif;
+        font-size: 3.2em;
+        margin: 0 !important;
+      }
+      p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-family: 'raleway', sans-serif;
+        font-size: 2.5em;
+        line-height: 1;
+      }
+
+      ul {
+        padding-bottom: 5px !important;
+        margin: 0;
+        li {
+          display: inline-block;
+          font-size: 3em;
+        }
+      }
+
+      a {
+        position: relative;
+        bottom: -90;
+        color: #fff;
+        padding: 25px 20px 25px 20px;
+        border: solid 2px;
+        border-radius: 10px;
+        font-family: 'raleway', sans-serif;
+        &:hover {
+          background-color: #fff;
+          transition: 0.5s;
+          color: $basetext;
+          border: none;
+        }
+      }
+    }
+  }
+
+}
+
+
+/** Headline-Text Section **/
+.headline-text {
+  text-align: center;
+  background-color: #fff;
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1.6em;
+  }
+
+  p {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+  }
+}
+
+/** List-Section **/
+.list-section {
+  background-color: $purple;
+  color: #fff;
+  .title-list {
+    margin-left: 20%;
+
+    h3 {
+      font-family: 'lato', sans-serif;
+      font-weight: 800;
+      font-size: 1.15em;
+    }
+    li {
+      font-family: 'lato', sans-serif;
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+  }
+}
+
+
+
+/** Footer-Section **/
+.footer {
+  padding: 0 !important;
+  background-color: $asphalt;
+  text-shadow: none !important;
+  nav {
+    ul {
+      padding-top: 9px !important;
+      li {
+        font-family: 'raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        text-transform: uppercase;
+        a {
+          color: rgba(255, 255, 255, 0.6) !important;
+          &:hover {
+            background: transparent;
+            color: $red !important;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+.copyright {
+  background-color: $midnight;
+  color: rgba(255, 255, 255, 0.6) !important;;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
