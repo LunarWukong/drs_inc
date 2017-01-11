@@ -1,47 +1,48 @@
 /** Body **/
-/* line 8, ../sass/application.scss */
+/* line 9, ../sass/application.scss */
 body {
   padding-top: 69px;
-  color: #383838 !important;
+  color: #383838;
   text-shadow: none !important;
+  height: 100%;
 }
 
-/* line 15, ../sass/application.scss */
+/* line 18, ../sass/application.scss */
 a:hover {
   text-decoration: none !important;
 }
 
-/* line 20, ../sass/application.scss */
+/* line 23, ../sass/application.scss */
 ul {
   list-style: none;
   padding: 0 !important;
 }
-/* line 23, ../sass/application.scss */
+/* line 26, ../sass/application.scss */
 ul li {
   line-height: 2;
 }
 
 /* typography */
-/* line 30, ../sass/application.scss */
+/* line 33, ../sass/application.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin: 0;
 }
 
-/* line 35, ../sass/application.scss */
+/* line 38, ../sass/application.scss */
 h1 {
   margin: 0 !important;
   margin-bottom: 5px !important;
 }
 
-/* line 40, ../sass/application.scss */
+/* line 43, ../sass/application.scss */
 h2 {
   margin: 0 !important;
   margin-bottom: 30px !important;
 }
 
 /** Header **/
-/* line 50, ../sass/application.scss */
+/* line 53, ../sass/application.scss */
 #logo {
   float: left;
   font-family: 'raleway', sans-serif;
@@ -55,101 +56,44 @@ h2 {
   font-weight: 200 !important;
   letter-spacing: 5px !important;
 }
-/* line 62, ../sass/application.scss */
+/* line 65, ../sass/application.scss */
 #logo span {
   color: #e74c3c;
 }
 
-/* line 67, ../sass/application.scss */
+/* line 70, ../sass/application.scss */
 #active {
-  color: #e74c3c;
+  color: #e74c3c !important;
 }
 
-/* line 71, ../sass/application.scss */
+/* line 74, ../sass/application.scss */
 .navbar {
   background: rgba(255, 255, 255, 0.9) !important;
 }
-/* line 75, ../sass/application.scss */
+/* line 78, ../sass/application.scss */
 .navbar nav ul {
   padding-top: 9px !important;
 }
-/* line 77, ../sass/application.scss */
+/* line 80, ../sass/application.scss */
 .navbar nav ul li {
   font-family: 'raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1em;
   text-transform: uppercase;
 }
-/* line 82, ../sass/application.scss */
+/* line 85, ../sass/application.scss */
 .navbar nav ul li a {
-  color: #383838;
+  color: #383838 !important;
 }
-/* line 84, ../sass/application.scss */
+/* line 87, ../sass/application.scss */
 .navbar nav ul li a:hover {
   background: transparent;
   color: #e74c3c !important;
   transition: 0.5s;
 }
 
-/* line 97, ../sass/application.scss */
-.empty-space {
-  height: 28px;
-}
-
-/** Sections General **/
-/* line 102, ../sass/application.scss */
-section {
-  padding: 75px 0 75px 0;
-}
-
-/** Slider Section **/
-/* line 107, ../sass/application.scss */
-.slider {
-  padding: 0 !important;
-}
-/* line 109, ../sass/application.scss */
-.slider .carousel-inner {
-  height: 100%;
-  width: 100%;
-}
-/* line 112, ../sass/application.scss */
-.slider .carousel-inner img {
-  height: 100% !important;
-  width: 100% !important;
-}
-/* line 116, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption {
-  bottom: 50% !important;
-  text-transform: uppercase;
-  text-shadow: none !important;
-}
-/* line 120, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption h1 {
-  font-weight: 800;
-  font-family: 'raleway', sans-serif;
-  font-size: 3.2em;
-  margin: 0 !important;
-}
-/* line 126, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption p {
-  margin-top: 20px;
-  font-weight: 300;
-  font-family: 'raleway', sans-serif;
-  font-size: 2.5em;
-  line-height: 1;
-}
-/* line 134, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption ul {
-  padding-bottom: 5px !important;
-  margin: 0;
-}
-/* line 137, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption ul li {
-  display: inline-block;
-  font-size: 3em;
-}
-/* line 143, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption a {
+/* line 98, ../sass/application.scss */
+.button {
   position: relative;
   bottom: -90;
   color: #fff;
@@ -158,33 +102,127 @@ section {
   border-radius: 10px;
   font-family: 'raleway', sans-serif;
 }
-/* line 151, ../sass/application.scss */
-.slider .carousel-inner .carousel-caption a:hover {
+/* line 106, ../sass/application.scss */
+.button:hover {
   background-color: #fff;
   transition: 0.5s;
   color: #383838;
   border: none;
 }
 
-/** Headline-Text Section **/
+/* line 114, ../sass/application.scss */
+.button-pos {
+  color: #fff;
+  padding: 25px 20px 25px 20px;
+  border: solid 2px;
+  border-radius: 10px;
+  font-family: 'raleway', sans-serif;
+}
+/* line 120, ../sass/application.scss */
+.button-pos:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: #383838;
+  border: none;
+}
+
+/* line 129, ../sass/application.scss */
+.empty-space {
+  height: 28px;
+}
+
+/** Sections General **/
+/* line 134, ../sass/application.scss */
+section {
+  padding: 75px 0 75px 0;
+}
+
+/* line 138, ../sass/application.scss */
+.section-background {
+  color: #fff !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 143, ../sass/application.scss */
+.section-background i {
+  text-shadow: none;
+  transition: 07s;
+  color: #bb0000;
+  font-size: 9em;
+  transition: 0.5s;
+}
+/* line 149, ../sass/application.scss */
+.section-background i:hover {
+  color: #fff;
+}
+
+/** Slider Section **/
+/* line 156, ../sass/application.scss */
+.slider {
+  padding: 0 !important;
+}
+/* line 158, ../sass/application.scss */
+.slider .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+/* line 161, ../sass/application.scss */
+.slider .carousel-inner img {
+  height: 100% !important;
+  width: 100% !important;
+}
 /* line 165, ../sass/application.scss */
+.slider .carousel-inner .carousel-caption {
+  bottom: 50% !important;
+  text-transform: uppercase;
+  text-shadow: none !important;
+}
+/* line 169, ../sass/application.scss */
+.slider .carousel-inner .carousel-caption h1 {
+  font-weight: 800;
+  font-family: 'raleway', sans-serif;
+  font-size: 3.2em;
+  margin: 0 !important;
+}
+/* line 175, ../sass/application.scss */
+.slider .carousel-inner .carousel-caption p {
+  margin-top: 20px;
+  font-weight: 300;
+  font-family: 'raleway', sans-serif;
+  font-size: 2.5em;
+  line-height: 1;
+}
+/* line 183, ../sass/application.scss */
+.slider .carousel-inner .carousel-caption ul {
+  padding-bottom: 5px !important;
+  margin: 0;
+}
+/* line 186, ../sass/application.scss */
+.slider .carousel-inner .carousel-caption ul li {
+  display: inline-block;
+  font-size: 3em;
+}
+
+/** Headline-Text Section **/
+/* line 198, ../sass/application.scss */
 .headline-text {
   text-align: center;
   background-color: #fff;
 }
-/* line 168, ../sass/application.scss */
+/* line 201, ../sass/application.scss */
 .headline-text h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 3em;
 }
-/* line 173, ../sass/application.scss */
+/* line 206, ../sass/application.scss */
 .headline-text h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 1.6em;
 }
-/* line 179, ../sass/application.scss */
+/* line 212, ../sass/application.scss */
 .headline-text p {
   font-family: 'lato', sans-serif;
   font-weight: 300;
@@ -192,61 +230,194 @@ section {
 }
 
 /** List-Section **/
-/* line 187, ../sass/application.scss */
+/* line 220, ../sass/application.scss */
 .list-section {
   background-color: #9b59b6;
   color: #fff;
 }
-/* line 190, ../sass/application.scss */
+/* line 223, ../sass/application.scss */
 .list-section .title-list {
   margin-left: 20%;
 }
-/* line 193, ../sass/application.scss */
+/* line 226, ../sass/application.scss */
 .list-section .title-list h3 {
   font-family: 'lato', sans-serif;
   font-weight: 800;
   font-size: 1.15em;
 }
-/* line 198, ../sass/application.scss */
+/* line 231, ../sass/application.scss */
 .list-section .title-list li {
   font-family: 'lato', sans-serif;
   font-weight: 400;
   font-size: 1.1em;
 }
 
+/** secondary-page-header **/
+/* line 240, ../sass/application.scss */
+.secondary-page-header {
+  background-image: url("../images/sky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 245, ../sass/application.scss */
+.secondary-page-header .secondary-page-header-wrapper {
+  padding: 200px 0px 200px 0;
+  color: #383838;
+}
+/* line 248, ../sass/application.scss */
+.secondary-page-header .secondary-page-header-wrapper h1 {
+  font-size: 3em;
+  font-family: 'raleway', sans-serif;
+  font-weight: 800;
+}
+/* line 253, ../sass/application.scss */
+.secondary-page-header .secondary-page-header-wrapper p {
+  font-size: 1.9em;
+  font-family: 'raleway', sans-serif;
+  font-weight: 200;
+}
+
 /** Footer-Section **/
-/* line 209, ../sass/application.scss */
+/* line 263, ../sass/application.scss */
 .footer {
   padding: 0 !important;
   background-color: #34495e;
   text-shadow: none !important;
 }
-/* line 214, ../sass/application.scss */
+/* line 268, ../sass/application.scss */
 .footer nav ul {
   padding-top: 9px !important;
 }
-/* line 216, ../sass/application.scss */
+/* line 270, ../sass/application.scss */
 .footer nav ul li {
   font-family: 'raleway', sans-serif;
   font-weight: 700;
   font-size: 1em;
   text-transform: uppercase;
 }
-/* line 221, ../sass/application.scss */
+/* line 275, ../sass/application.scss */
 .footer nav ul li a {
   color: rgba(255, 255, 255, 0.6) !important;
 }
-/* line 223, ../sass/application.scss */
+/* line 277, ../sass/application.scss */
 .footer nav ul li a:hover {
   background: transparent;
   color: #e74c3c !important;
   transition: 0.5s;
 }
 
-/* line 234, ../sass/application.scss */
+/* line 288, ../sass/application.scss */
 .copyright {
   background-color: #2c3e50;
   color: rgba(255, 255, 255, 0.6) !important;
   text-align: center;
   padding: 10px 0 10px 0;
+}
+
+/* MODAL */
+/* line 297, ../sass/application.scss */
+.modal-video {
+  padding: 40px 0px 40px 0px;
+  display: inline-block;
+}
+
+/* line 302, ../sass/application.scss */
+.modal-header {
+  color: #383838 !important;
+}
+/* line 304, ../sass/application.scss */
+.modal-header h4 {
+  font-family: 'raleway', sans-serif;
+  font-weight: 300 !important;
+  font-size: 2em;
+}
+
+/* line 311, ../sass/application.scss */
+.modal-video-caption {
+  color: #383838 !important;
+  font-size: 1.5em !important;
+  font-family: 'lato', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/* FORM */
+/* line 320, ../sass/application.scss */
+.form h3 {
+  font-family: 'raleway';
+  font-weight: 600;
+  font-color: #383838;
+  font-size: 1.7em;
+}
+/* line 327, ../sass/application.scss */
+.form p {
+  font-family: 'raleway';
+  font-weight: 300;
+  font-color: #383838;
+  font-size: 1.1em;
+}
+
+/* Contact */
+/* line 336, ../sass/application.scss */
+.contact-address {
+  padding-left: 30px;
+}
+/* line 338, ../sass/application.scss */
+.contact-address h3 {
+  font-size: 1.6em;
+  font-weight: 600;
+  font-family: 'raleway', sans-serif;
+  font-color: #383838;
+}
+/* line 344, ../sass/application.scss */
+.contact-address p {
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+  font-color: #383838;
+}
+/* line 349, ../sass/application.scss */
+.contact-address i {
+  display: inline-block;
+  font-size: 2.2em;
+  color: #e74c3c;
+  padding: 5px 30px 0px 0px;
+}
+
+/* line 357, ../sass/application.scss */
+.contact-info {
+  padding-bottom: 0 !important;
+}
+
+/* line 361, ../sass/application.scss */
+.contact-info-module {
+  margin: 0 auto !important;
+}
+/* line 363, ../sass/application.scss */
+.contact-info-module .contact-info-icon {
+  display: inline-block;
+}
+/* line 365, ../sass/application.scss */
+.contact-info-module .contact-info-icon i {
+  font-size: 3.5em;
+  color: #e74c3c;
+  padding-left: 35px;
+}
+/* line 372, ../sass/application.scss */
+.contact-info-module .contact-info-info {
+  padding-left: 20px;
+  display: inline-block;
+}
+/* line 374, ../sass/application.scss */
+.contact-info-module .contact-info-info p {
+  font-family: 'raleway', sans-serif;
+  font-size: 1.8em;
+  font-weight: 200;
+  color: #383838;
+}
+/* line 380, ../sass/application.scss */
+.contact-info-module .contact-info-info span {
+  font-family: 'raleway', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #383838;
 }

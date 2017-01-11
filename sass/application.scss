@@ -3,13 +3,16 @@ $purple: #9b59b6;
 $red: #e74c3c;
 $asphalt: #34495e;
 $midnight: #2c3e50;
+$greybg: #fafafa;
 
 /** Body **/
 body {
   padding-top: 69px;
-  color: $basetext !important;
+  color: $basetext;
   text-shadow: none !important;
+  height: 100%;
 }
+
 
 a {
   &:hover {
@@ -65,7 +68,7 @@ h2 {
 }
 
 #active {
-  color: $red;
+  color: $red !important;
 }
 
 .navbar {
@@ -76,11 +79,11 @@ h2 {
       padding-top: 9px !important;
       li {
         font-family: 'raleway', sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         font-size: 1em;
         text-transform: uppercase;
         a {
-          color: $basetext;
+          color: $basetext !important;
           &:hover {
             background: transparent;
             color: $red !important;
@@ -92,6 +95,35 @@ h2 {
   }
 }
 
+.button {
+  position: relative;
+  bottom: -90;
+  color: #fff;
+  padding: 25px 20px 25px 20px;
+  border: solid 2px;
+  border-radius: 10px;
+  font-family: 'raleway', sans-serif;
+  &:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    color: $basetext;
+    border: none;
+  }
+}
+
+.button-pos {
+  color: #fff;
+  padding: 25px 20px 25px 20px;
+  border: solid 2px;
+  border-radius: 10px;
+  font-family: 'raleway', sans-serif;
+  &:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    color: $basetext;
+    border: none;
+  }
+}
 
 
 .empty-space {
@@ -101,6 +133,23 @@ h2 {
 /** Sections General **/
 section {
   padding: 75px 0 75px 0;
+}
+
+.section-background {
+  color: #fff !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  i {
+    text-shadow: none;
+    transition: 07s;
+    color:#bb0000;
+    font-size: 9em;
+    transition: 0.5s;
+    &:hover {
+    color: #fff;
+    }
+  }
 }
 
 /** Slider Section **/
@@ -137,22 +186,6 @@ section {
         li {
           display: inline-block;
           font-size: 3em;
-        }
-      }
-
-      a {
-        position: relative;
-        bottom: -90;
-        color: #fff;
-        padding: 25px 20px 25px 20px;
-        border: solid 2px;
-        border-radius: 10px;
-        font-family: 'raleway', sans-serif;
-        &:hover {
-          background-color: #fff;
-          transition: 0.5s;
-          color: $basetext;
-          border: none;
         }
       }
     }
@@ -203,6 +236,27 @@ section {
   }
 }
 
+/** secondary-page-header **/
+.secondary-page-header {
+  background-image: url('../images/sky.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .secondary-page-header-wrapper {
+    padding: 200px 0px 200px 0;
+    color: $basetext;
+    h1 {
+      font-size: 3em;
+      font-family: 'raleway', sans-serif;
+      font-weight: 800;
+    }
+    p {
+      font-size: 1.9em;
+      font-family: 'raleway', sans-serif;
+      font-weight: 200;
+    }
+  }
+}
 
 
 /** Footer-Section **/
@@ -236,4 +290,99 @@ section {
   color: rgba(255, 255, 255, 0.6) !important;;
   text-align: center;
   padding: 10px 0 10px 0;
+}
+
+/* MODAL */
+
+.modal-video {
+  padding: 40px 0px 40px 0px;
+  display: inline-block;
+}
+
+.modal-header {
+color: $basetext !important;
+h4 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 300 !important;
+    font-size: 2em;
+  }
+}
+
+.modal-video-caption {
+  color: $basetext !important;
+  font-size: 1.5em !important;
+  font-family: 'lato', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/* FORM */
+.form {
+  h3 {
+    font-family: 'raleway';
+    font-weight: 600;
+    font-color: $basetext;
+    font-size: 1.7em;
+  }
+
+  p {
+    font-family: 'raleway';
+    font-weight: 300;
+    font-color: $basetext;
+    font-size: 1.1em;
+  }
+}
+
+/* Contact */
+.contact-address {
+  padding-left: 30px;
+  h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'raleway', sans-serif;
+    font-color: $basetext;
+  }
+  p {
+    font-family: 'raleway', sans-serif;
+    font-weight: 300;
+    font-color: $basetext;
+  }
+  i {
+    display: inline-block;
+    font-size:  2.2em;
+    color: $red;
+    padding: 5px 30px 0px 0px;
+  }
+}
+
+.contact-info {
+  padding-bottom: 0 !important;
+}
+
+.contact-info-module {
+  margin: 0 auto !important;
+  .contact-info-icon {
+    display: inline-block;
+    i {
+      font-size: 3.5em;
+      color: $red;
+      padding-left: 35px ;
+    }
+  }
+
+  .contact-info-info {
+    padding-left: 20px;
+    p {
+      font-family: 'raleway', sans-serif;
+      font-size: 1.8em;
+      font-weight: 200;
+      color: $basetext;
+    }
+    span {
+      font-family: 'raleway', sans-serif;
+      font-size: 1.2em;
+      font-weight: 300;
+      color: $basetext;
+    }
+    display: inline-block;
+  }
 }
