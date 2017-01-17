@@ -28,12 +28,32 @@
       </div>
     </header>
 
-    <section class="secondary-page-header">
-      <div class="container">
-        <div class="secondary-page-header-wrapper">
-          <h1>Contact</h1>
-          <p>Contact Us With Your Inquiry</p>
+    <section class="contact-slider carousel-fade">
+      <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class='active'></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/ny-skyline.jpg" alt="Mountains" class="img-responsive">
+          </div>
+
+          <div class="item">
+            <img src="images/atl-skyline.jpg" alt="City" class="img-responsive">
+          </div>
         </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
       </div>
     </section>
 
