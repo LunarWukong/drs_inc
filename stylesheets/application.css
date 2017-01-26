@@ -218,7 +218,7 @@ section {
 }
 /* line 209, ../sass/application.scss */
 .slider .carousel-inner .carousel-caption {
-  bottom: 50% !important;
+  bottom: 30% !important;
   text-transform: uppercase;
   text-shadow: none !important;
 }
